@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       </header>
       <div className="body-content">
           <div className="">
-
+              <Dashboard></Dashboard>
           </div>
       </div>
     </div>
